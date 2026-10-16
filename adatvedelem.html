@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Agent OS – Adatvédelem</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --link: #0969da; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --link: #4493f8; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; margin: 0; padding: 32px 16px; }
+  main { max-width: 640px; margin: 0 auto; }
+  a { color: var(--link); }
+  p.muted { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Adatvédelmi tájékoztató</h1>
+  <p class="muted">Agent OS · hatályos: 2026. október 16.</p>
+
+  <h2>Kinek szól</h2>
+  <p>Az Agent OS egyetlen személy saját használatára készült, a saját gépén fut. Más felhasználója nincs.</p>
+
+  <h2>Milyen Google-adathoz fér hozzá</h2>
+  <ul>
+    <li><strong>A saját maga által létrehozott naptár</strong> (<code>calendar.app.created</code>):
+      létrehoz egy „Agent OS – heti terv” nevű naptárt, és csak ebben hoz létre, olvas, módosít és töröl eseményeket.
+      A felhasználó többi naptárához és eseményéhez nem fér hozzá.</li>
+    <li><strong>Foglaltsági információ</strong> (<code>calendar.freebusy</code>): a többi naptárból kizárólag azt látja,
+      mikor foglalt a felhasználó. Az események címét, leírását, résztvevőit és helyszínét nem.</li>
+  </ul>
+
+  <h2>Hol tárolja és kivel osztja meg</h2>
+  <p>A Google-hozzáférési kulcs és a tervadatok kizárólag a felhasználó saját gépén vannak tárolva.
+  Az adatokat harmadik félnek nem adja át, nem értékesíti, és hirdetésre nem használja.
+  A Google API-kból kapott adatok használata megfelel a
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>
+  előírásainak, a Limited Use követelményeket is beleértve.</p>
+
+  <h2>Visszavonás és törlés</h2>
+  <p>A hozzáférés bármikor visszavonható a Google-fiók beállításaiban:
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  A létrehozott naptár a Google Naptárban törölhető; a helyben tárolt adatok a felhasználó gépéről törölhetők.</p>
+
+  <h2>Kapcsolat</h2>
+  <p>Kérdés esetén a Google engedélykérő képernyőjén feltüntetett kapcsolattartási címen.</p>
+
+  <p><a href="index.html">Vissza</a></p>
+</main>
+</body>
+</html>
